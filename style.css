@@ -141,6 +141,10 @@ body {
     opacity: 0.2;
 }
 
+.slick-arrow {
+    cursor: pointer;
+}
+
 .slider .slick-dots {
     display: flex;
     align-self: center;
@@ -159,6 +163,7 @@ body {
     background-color: #fff;
     border-radius: 50%;
     outline: none;
+    cursor: pointer;
 }
 
 .slider .slick-dots li.slick-active button {
